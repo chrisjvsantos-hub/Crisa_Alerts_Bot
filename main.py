@@ -9,7 +9,7 @@ from flask import Flask
 TELEGRAM_TOKEN = os.environ.get("TELEGRAM_TOKEN")
 TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID")
 API_FOOTBALL_KEY = os.environ.get("API_FOOTBALL_KEY")
-LIGAS = [39, 140, 78, 135, 61, 2, 253, 239, 11, 13]
+LIGAS = [39, 140, 78, 135, 61, 2, 253, 239, 11, 13 , 238 ]
 HEADERS = {"x-apisports-key": API_FOOTBALL_KEY}
 BASE_URL = "https://v3.football.api-sports.io"
 
