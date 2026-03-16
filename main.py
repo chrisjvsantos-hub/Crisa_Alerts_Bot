@@ -5,8 +5,7 @@ import logging
 import threading
 from datetime import datetime
 from flask import Flask
-
-TELEGRAM_TOKEN   = os.environ.get(“TELEGRAM_TOKEN”)
+TELEGRAM_TOKEN = os.environ.get("TELEGRAM_TOKEN")
 TELEGRAM_CHAT_ID = os.environ.get(“TELEGRAM_CHAT_ID”)
 API_FOOTBALL_KEY = os.environ.get(“API_FOOTBALL_KEY”)
 
